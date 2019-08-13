@@ -1,0 +1,61 @@
+{
+    "Problem": [
+        {
+            "Lower bound": 2745.0,
+            "Name": "unknown",
+            "Number of constraints": 18,
+            "Number of nonzeros": 40,
+            "Number of objectives": 1,
+            "Number of variables": 16,
+            "Sense": "minimize",
+            "Upper bound": 2745.0
+        }
+    ],
+    "Solution": [
+        {
+            "number of solutions": 1,
+            "number of solutions displayed": 1
+        },
+        {
+            "Constraint": "No values",
+            "Gap": 0.0,
+            "Message": null,
+            "Objective": {
+                "obj": {
+                    "Value": 2745.0
+                }
+            },
+            "Problem": {},
+            "Status": "optimal",
+            "Variable": {
+                "x[Ashland,Chicago]": {
+                    "Value": 1.0
+                },
+                "x[Ashland,NYC]": {
+                    "Value": 1.0
+                },
+                "x[Harlingen,Houston]": {
+                    "Value": 1.0
+                },
+                "x[Harlingen,LA]": {
+                    "Value": 1.0
+                },
+                "y[Ashland]": {
+                    "Value": 1.0
+                },
+                "y[Harlingen]": {
+                    "Value": 1.0
+                }
+            }
+        }
+    ],
+    "Solver": [
+        {
+            "Error rc": 0,
+            "Status": "ok",
+            "Termination condition": "optimal",
+            "Time": 0.019849061965942383,
+            "User time": -1.0
+        }
+    ]
+}
